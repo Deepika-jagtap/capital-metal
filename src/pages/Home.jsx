@@ -10,14 +10,14 @@ import HomeWhyWeChoose from './HomeWhyWeChoose';
 
 const Home = () => {
   return (
-    <div className="">
+    <>
     <HomeBanner />
         <HomeWhatWeDoCarouselMain />
         <HomeVideoBanner />
         <HomeWhyWeChoose />
         <HomeTestimonialPage />
         <HomeNewsAndBlog />
-    </div>
+    </>
   );
 };
 
